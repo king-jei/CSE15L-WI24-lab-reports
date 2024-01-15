@@ -6,7 +6,7 @@
 [user@sahara ~]$ cd
 [user@sahara ~]$ 
 ```
-    - working directory: ```/home```
+    - working directory: `/home`
     - since there was no argument, and we were already at the root directory, the working directory wasn't changed.
     - No error.
 * cd with directory as argument
@@ -14,7 +14,7 @@
 [user@sahara ~]$ cd lecture1
 [user@sahara ~/lecture1]$
 ```
-    - working directory: ```/home```
+    - working directory: `/home`
     - we were navigated to the directory that was entered as an argument.
     - no error.
 * cd with file as argument
@@ -23,7 +23,7 @@
 bash: cd: Hello.java: Not a directory
 [user@sahara ~/lecture1]$ 
 ```
-    - working directory: ```/home/lecture1```
+    - working directory: `/home/lecture1`
     - since a file is not a directory, the terminal returned an error message stating so, and no changes were made to the working directory.
     - error, due to incorrect input type.
       
@@ -34,7 +34,7 @@ bash: cd: Hello.java: Not a directory
 Hello.class  Hello.java  messages  README
 [user@sahara ~/lecture1]$
 ```
-    - working directory: ```/home/lecture1```
+    - working directory: `/home/lecture1`
     - it listed the files and subdirectories of the current working directory.
     - no error.
 * ls with directory as argument
@@ -42,7 +42,7 @@ Hello.class  Hello.java  messages  README
   [user@sahara ~]$ ls lecture1
 Hello.class  Hello.java  messages  README 
 ```
-    - working directory: ```/home```
+    - working directory: `/home`
     - it listed the files and subdirectories of the directory provided as argument.
     - no error.
 * ls with file as argument
@@ -53,7 +53,7 @@ ls: cannot access 'README': No such file or directory
 [user@sahara ~/lecture1]$ ls README
 README
 ```
-    - working directory: ```/home```, ```/home/lecture1```
+    - working directory: `/home`, `/home/lecture1`
     - If file is not in the current working directory, an error is returned. If file is in the current working directory, then only that file is displayed.
     - Not an error, because you can use this to check if a particular file is present in the current working directory.
 
@@ -76,7 +76,7 @@ cd
 [user@sahara ~/lecture1/messages]$
 
 ```
-    - working directory: ```/home/lecture1/messages```
+    - working directory: `/home/lecture1/messages`
     - since there was no input, nothing was printed. however, subsequent entries were printed until cat was exited with `ctrl + d`.
     - I would say it's am error, because I was not expecting such behavior and I don't believe it is a desired outcome.
 * cat with directory as argument
@@ -85,7 +85,7 @@ cd
 cat: messages: Is a directory
 [user@sahara ~/lecture1]$
 ```
-    - working directory: ```/home/lecture1```
+    - working directory: `/home/lecture1`
     - it returned an error message due to invalid input.
     - error, because it is designed to read contents of files, not directories.
 * cat with file as argument
@@ -103,6 +103,6 @@ ts.UTF_8);
     System.out.println(content);
   }
 }```
-    - working directory: ```/home/lecture1```
+    - working directory: `/home/lecture1`
     - contents of the file were printed to the screen
     - No error.
