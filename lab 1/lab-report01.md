@@ -59,12 +59,11 @@ README
 
 ## `cat` command
 * cat with no arguments
+
 ```
 [user@sahara ~/lecture1/messages]$ cat
 cd lecture1
 cd lecture1
-
-
 cd
 cd
 exit
@@ -75,7 +74,6 @@ cd
 cd
 [user@sahara ~/lecture1/messages]$
 ```
-
    - working directory: `/home/lecture1/messages`
    - since there was no input, nothing was printed. however, subsequent entries were printed until cat was exited with `ctrl + d`.
    - I would say it's am error, because I was not expecting such behavior and I don't believe it is a desired outcome.
