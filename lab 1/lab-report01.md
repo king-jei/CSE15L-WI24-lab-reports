@@ -74,9 +74,9 @@ cd
 cd
 [user@sahara ~/lecture1/messages]$
 ```
-   - working directory: `/home/lecture1/messages`
-   - since there was no input, nothing was printed. however, subsequent entries were printed until cat was exited with `ctrl + d`.
-   - I would say it's am error, because I was not expecting such behavior and I don't believe it is a desired outcome.
+    - working directory: `/home/lecture1/messages`
+    - since there was no input, nothing was printed. however, subsequent entries were printed until cat was exited with `ctrl + d`.
+    - I would say it's am error, because I was not expecting such behavior and I don't believe it is a desired outcome.
 * cat with directory as argument
 ```
 [user@sahara ~/lecture1]$ cat messages
