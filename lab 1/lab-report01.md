@@ -102,6 +102,6 @@ ts.UTF_8);
   }
 }
 ```
-    - working directory: `/home/lecture1`
+	- working directory: `/home/lecture1`
     - contents of the file were printed to the screen
     - No error.
