@@ -57,7 +57,7 @@ README
     - If file is not in the current working directory, an error is returned. If file is in the current working directory, then only that file is displayed.
     - Not an error, because you can use this to check if a particular file is present in the current working directory.
 
-## "cat" command
+## `cat` command
 * cat with no arguments
 ```
   [user@sahara ~/lecture1/messages]$ cat
@@ -74,8 +74,8 @@ x
 cd
 cd
 [user@sahara ~/lecture1/messages]$
-
 ```
+
     - working directory: `/home/lecture1/messages`
     - since there was no input, nothing was printed. however, subsequent entries were printed until cat was exited with `ctrl + d`.
     - I would say it's am error, because I was not expecting such behavior and I don't believe it is a desired outcome.
