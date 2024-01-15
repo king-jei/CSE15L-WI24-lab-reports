@@ -88,7 +88,7 @@ cat: messages: Is a directory
    - error, because it is designed to read contents of files, not directories.
 * cat with file as argument
 ```
-  [user@sahara ~/lecture1]$ cat Hello.java
+[user@sahara ~/lecture1]$ cat Hello.java
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -100,7 +100,8 @@ public class Hello {
 ts.UTF_8);    
     System.out.println(content);
   }
-}```
-   - working directory: `/home/lecture1`
-   - contents of the file were printed to the screen
-   - No error.
+}
+```
+    - working directory: `/home/lecture1`
+    - contents of the file were printed to the screen
+    - No error.
