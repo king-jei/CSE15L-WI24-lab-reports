@@ -73,18 +73,18 @@ cd
 cd
 [user@sahara ~/lecture1/messages]$
 ```
- - working directory: `/home/lecture1/messages`
- - since there was no input, nothing was printed. however, subsequent entries were printed until cat was exited with `ctrl + d`.
- - I would say it's am error, because I was not expecting such behavior and I don't believe it is a desired outcome.
+  - working directory: `/home/lecture1/messages`
+  - since there was no input, nothing was printed. however, subsequent entries were printed until cat was exited with `ctrl + d`.
+  - I would say it's am error, because I was not expecting such behavior and I don't believe it is a desired outcome.
 * cat with directory as argument
 ```
 [user@sahara ~/lecture1]$ cat messages
 cat: messages: Is a directory
 [user@sahara ~/lecture1]$
 ```
- - working directory: `/home/lecture1`
- - it returned an error message due to invalid input.
- - error, because it is designed to read contents of files, not directories.
+  - working directory: `/home/lecture1`
+  - it returned an error message due to invalid input.
+  - error, because it is designed to read contents of files, not directories.
 * cat with file as argument
 ```
 [user@sahara ~/lecture1]$ cat Hello.java
@@ -101,6 +101,6 @@ ts.UTF_8);
   }
 }
 ```
- - working directory: `/home/lecture1`
- - contents of the file were printed to the screen
- - No error.
+  - working directory: `/home/lecture1`
+  - contents of the file were printed to the screen
+  - No error.
