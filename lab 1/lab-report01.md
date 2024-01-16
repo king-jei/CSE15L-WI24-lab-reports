@@ -86,6 +86,7 @@ cat: messages: Is a directory
   - it returned an error message due to invalid input.
   - error, because it is designed to read contents of files, not directories.
 * cat with file as argument
+
 ```
 [user@sahara ~/lecture1]$ cat Hello.java
 import java.io.IOException;
