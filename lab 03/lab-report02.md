@@ -55,13 +55,13 @@ class ChatServer {public static void main(String[] args) throws IOException {
 
  ![ChatServer02](images/ChatServer 002.png)
 - Which methods in your code are called?
-  `Server.start`, `url.getPath`, `url.getQuery.split`, `String.format`, `log.replace`
+   -`Server.start`, `url.getPath`, `url.getQuery.split`, `String.format`, `log.replace`
 - What are the relevant arguments to those methods, 
-  `Server.start(<int, Handler>)`, `url.getPath(<null>)`, `url.getQuery.spilt(<delimeters>)`, `String.format(<"String", String01, String02>)`, `log.replace(<'oldCHAR', 'newCHAR'>)`
+   -`Server.start(<int, Handler>)`, `url.getPath(<null>)`, `url.getQuery.spilt(<delimeters>)`, `String.format(<"String", String01, String02>)`, `log.replace(<'oldCHAR', 'newCHAR'>)`
 - and the values of any relevant fields of the class?
-  `int port = 4000', `String[] parameters = (<null>)`, `String log = "Loonquawl and Phouchg: What is the Answer to the Ultimate Question of Life, The Universe, and Everything?"`
+   -`int port = 4000', `String[] parameters = (<null>)`, `String log = "Loonquawl and Phouchg: What is the Answer to the Ultimate Question of Life, The Universe, and Everything?"`
 - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-  `parameters[]` now contains `"s", "42", "user", "Deep Thought"`. `log` has `Deep Thought: 42` appended to it.
+   -`parameters[]` now contains `"s", "42", "user", "Deep Thought"`. `log` has `Deep Thought: 42` appended to it.
       
 ## Part 2
 ### * The absolute path to the private key for my SSH key for logging into `ieng6`
@@ -73,4 +73,4 @@ class ChatServer {public static void main(String[] args) throws IOException {
 
 ## Part 3
 ### * In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn't know before.
-Answer
+I learned a little bit about using `curl` to launch urls from the command line. It stand for "Cluent for URL" and is not limited to JAVA. It is a separate command-line tool that is used transferring data using various network protocols.
