@@ -50,7 +50,7 @@ What are the relevant arguments to those methods, \
 and the values of any relevant fields of the class?\
 -`int port = 4000`, `String[] parameters = (<null>)`, `String log = ""` \
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.\
--`parameters[]` now contains `"s", "What is the Answer to the Ultimate Question of Life, The Universe, and Everything?", "user", "Loonquawl and Phouchg"`. `log` has `Loonquawl and Phouchg: What is the Answer to the Ultimate Question of Life, The Universe, and Everything?` appended to it.\
+-`parameters[]` now contains `"s", "What is the Answer to the Ultimate Question of Life, The Universe, and Everything?", "user", "Loonquawl and Phouchg"`. `log` has `Loonquawl and Phouchg: What is the Answer to the Ultimate Question of Life, The Universe, and Everything?` appended to it.
 ### * 2nd screenshot of ChatServer
 
  ![ChatServer02](images/ChatServer 002.png)
