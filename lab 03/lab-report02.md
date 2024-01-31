@@ -43,13 +43,13 @@ class ChatServer {
 ```
 ### * 1st screenshot of ChatServer
 
- ![ChatServer01](images/ChaterServer 001.png)
+ ![ChatServer01](images/ChatServer 001.png)
 - working directory: `/home`
 - we were navigated to the directory that was entered as an argument.
 - no error.
 ### * 2nd screenshot of ChatServer
 
- ![ChatServer02](images/ChaterServer 002.png)
+ ![ChatServer02](images/ChatServer 002.png)
   - Which methods in your code are called?
   - What are the relevant arguments to those methods, and the values of any relevant fields of the class?
   - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
