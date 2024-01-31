@@ -48,7 +48,7 @@ Which methods in your code are called?\
 What are the relevant arguments to those methods, \
 -`Server.start(<int, Handler>)`, `url.getPath(<null>)`, `url.getQuery.spilt(<delimeters>)`, `String.format(<"String", String01, String02>)`, `log.replace(<'oldCHAR', 'newCHAR'>)`\
 and the values of any relevant fields of the class?\
--`int port = 4000', `String[] parameters = (<null>)`, `String log = ""` \
+-`int port = 4000`, `String[] parameters = (<null>)`, `String log = ""` \
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.\
 -`parameters[]` now contains `"s", "What is the Answer to the Ultimate Question of Life, The Universe, and Everything?", "user", "Loonquawl and Phouchg"`. `log` has `Loonquawl and Phouchg: What is the Answer to the Ultimate Question of Life, The Universe, and Everything?` appended to it.\
 ### * 2nd screenshot of ChatServer
@@ -59,7 +59,7 @@ Which methods in your code are called?\
 What are the relevant arguments to those methods, \
 -`Server.start(<int, Handler>)`, `url.getPath(<null>)`, `url.getQuery.spilt(<delimeters>)`, `String.format(<"String", String01, String02>)`, `log.replace(<'oldCHAR', 'newCHAR'>)`\
 and the values of any relevant fields of the class?\
--`int port = 4000', `String[] parameters = (<null>)`, `String log = "Loonquawl and Phouchg: What is the Answer to the Ultimate Question of Life, The Universe, and Everything?"`\
+-`int port = 4000`, `String[] parameters = (<null>)`, `String log = "Loonquawl and Phouchg: What is the Answer to the Ultimate Question of Life, The Universe, and Everything?"`\
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.\
 -`parameters[]` now contains `"s", "42", "user", "Deep Thought"`. `log` has `Deep Thought: 42` appended to it.
       
