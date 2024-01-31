@@ -27,8 +27,7 @@ class Handler implements URLHandler {
     }
 }
 
-class ChatServer {
-    public static void main(String[] args) throws IOException {
+class ChatServer {public static void main(String[] args) throws IOException {
         /*if(args.length == 0){
             System.out.println("Missing port number! Try any number between 1024 to 49151");
             return;
@@ -44,15 +43,25 @@ class ChatServer {
 ### * 1st screenshot of ChatServer
 
  ![ChatServer01](images/ChatServer 001.png)
-- working directory: `/home`
-- we were navigated to the directory that was entered as an argument.
-- no error.
+- Which methods in your code are called?
+  `Server.start`, `url.getPath`, `url.getQuery.split`, `String.format`, `log.replace`
+- What are the relevant arguments to those methods, 
+  `Server.start(<int, Handler>)`, `url.getPath(<null>)`, `url.getQuery.spilt(<delimeters>)`, `String.format(<"String", String01, String02>)`, `log.replace(<'oldCHAR', 'newCHAR'>)`
+- and the values of any relevant fields of the class?
+  `int port = 4000', `String[] parameters = <null>`, `String log = ""` 
+- How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+  `parameters[]` now contains `"s", "What is the Answer to the Ultimate Question of Life, The Universe, and Everything?", "user", "Loonquawl and Phouchg"'. `log` has `Loonquawl and Phouchg: What is the Answer to the Ultimate Question of Life, The Universe, and Everything?` appended to it.
 ### * 2nd screenshot of ChatServer
 
  ![ChatServer02](images/ChatServer 002.png)
-  - Which methods in your code are called?
-  - What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-  - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+- Which methods in your code are called?
+  `Server.start`, `url.getPath`, `url.getQuery.split`, `String.format`, `log.replace`
+- What are the relevant arguments to those methods, 
+  `Server.start(<int, Handler>)`, `url.getPath(<null>)`, `url.getQuery.spilt(<delimeters>)`, `String.format(<"String", String01, String02>)`, `log.replace(<'oldCHAR', 'newCHAR'>)`
+- and the values of any relevant fields of the class?
+  `int port = 4000' `String log = "Loonquawl and Phouchg: What is the Answer to the Ultimate Question of Life, The Universe, and Everything?"`
+- How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+  `parameters[]` now contains `"s", "42", "user", "Deep Thought"'. `log` has `Deep Thought: 42` appended to it.
       
 ## Part 2
 ### * The absolute path to the private key for my SSH key for logging into `ieng6`
@@ -65,5 +74,3 @@ class ChatServer {
 ## Part 3
 ### * In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn't know before.
 Answer
-  - contents of the file were printed to the screen
-  - No error.
